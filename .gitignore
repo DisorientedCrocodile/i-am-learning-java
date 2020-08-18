@@ -21,3 +21,11 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+# all of the above was githubs auto generated stuff
+# now for the stuff i want to add
+# i actually don't know whether i should have added that
+# we'll see
+out/
+.idea/
+TutorialSeries.iml
