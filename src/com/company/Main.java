@@ -1,23 +1,14 @@
 package com.company;
 
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
         // write your code here
-        int[] nums;
-        int n;
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter how long you want the array to be: ");
-        n = scanner.nextInt();
-        nums = new int[n];
-        for (int i = 0; i < n; i++) {
-            System.out.println("Enter nums[" + i + "]");
-            nums[i] = scanner.nextInt();
+        int[][] array = new int[3][3];
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
+                array[i][j] = i + j; // idk i just put a random thing here
+                System.out.println(array[i][j]);
+            }
         }
-        for (int i = 0; i < n; i++) {
-            System.out.println(i + ". " + nums[i]);
-        }
-        // i know VEERYY UsEfUl
     }
 }
